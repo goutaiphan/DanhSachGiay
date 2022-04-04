@@ -10,6 +10,7 @@ let array = [{name: 'Air Max 270 Big Kid', price: 190.2},
     {name: 'Revolution 4', price: 45}];
 
 let area = document.createElement('div');
+area.className = 'area';
 area.append(title);
 
 let board = document.createElement('div');
