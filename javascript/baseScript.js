@@ -26,7 +26,7 @@ for (let i = 0; i < array.length; i++) {
     children[0].onclick = () => children[0].classList.toggle('love');
     children[1].style.backgroundImage = `url(../media/shoe${i + 1}.jpg)`;
     children[2].innerHTML = array[i].name;
-    children[3].innerHTML = '$' + array[i].price.toFixed(2);
+    children[3].innerHTML = '$ ' + array[i].price.toFixed(2);
     board.append(shoe);
 }
 
