@@ -37,8 +37,9 @@ body {
 }
 
 .title {
+    width: 95%;
     font-family: 'PlayfairDisplay', serif;
-    font-size: 35px;
+    font-size: 45px;
     transform: scale(1.05, 1);
     margin-bottom: 50px;
 }
@@ -67,11 +68,11 @@ body {
     height: 50px;
     background-size: contain;
     align-self: end;
-    background-image: url("../media/heart0.png");
+    background-image: url("../media/HeartBlack.png");
 }
 
 .shoe div:nth-child(1).love {
-    background-image: url("../media/heart.png");
+    background-image: url("../media/HeartRed.png");
 }
 
 .shoe div:nth-child(2) {

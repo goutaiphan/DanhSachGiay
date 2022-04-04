@@ -1,6 +1,6 @@
 let title = document.createElement('div');
-title.innerHTML = 'Nike';
 title.className = 'title';
+title.innerHTML = 'Danh sách Nike';
 
 let array = [{name: 'Air Max 270 Big Kid', price: 190.2},
     {name: 'Kyrie Flytrap II', price: 150},
