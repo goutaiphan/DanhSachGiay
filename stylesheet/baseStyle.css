@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../font/PlayfairDisplay.ttf');
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+    font-family: 'Lora', serif;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:not(input) {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: min(5vmax, 25px) 0;
+    background-color: #ecf0f3;
+}
+
+.area {
+    width: max-content;
+}
+
+.title {
+    font-family: 'PlayfairDisplay', serif;
+    font-size: 35px;
+    transform: scale(1.05, 1);
+    margin-bottom: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.shoe {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.shoe div:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    align-self: end;
+    background-image: url("../media/heart0.png");
+}
+
+.shoe div:nth-child(1).love {
+    background-image: url("../media/heart.png");
+}
+
+.shoe div:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+.shoe div:nth-child(3) {
+    width: 100%;
+    font-size: 20px;
+}
+
+.shoe div:nth-child(4) {
+    width: 100%;
+    font-size: 18px;
+}
