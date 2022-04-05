@@ -72,6 +72,7 @@ body {
     height: 50px;
     align-self: end;
     background-image: url("../media/HeartBlack.png");
+    cursor: pointer;
 }
 
 .shoe div:nth-child(1).love {
